@@ -1,0 +1,7 @@
+<launch>
+  <group>
+    <rosparam file="$(find crowd_nav)/config/params.yaml"/>
+    <node name="crowd_nav" pkg="crowd_nav" type="crowd_nav" output="screen"/>
+  </group>
+
+</launch>

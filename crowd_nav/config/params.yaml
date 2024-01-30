@@ -1,0 +1,25 @@
+dt: 0.1
+maximum_agents: 8
+replan_freq: 10.0
+n_samples: 196
+n_steps: 25
+cost_a1: 4.0
+cost_a2: 1.0
+cost_a3: 80.0
+kernel_a1: 0.2
+kernel_a2: 0.2
+y_min: -50.0
+y_max: 50.0
+people_timeout: 5.0
+goal_threshold: 0.5
+brne_activate_threshold: 3.5
+max_lin_vel: 1.0
+nominal_lin_vel: 0.6
+max_ang_vel: 0.6
+close_stop_threshold: 1.0
+offset_unitree_vel: false
+ped_f2f_rate: 33
+pedestrian_position_topic: "/pedsim_agents/semantic/pedestrian" # pedsim_msgs/SemanticData
+odom_topic: "/jackal/odom"
+planning_frame: "map"
+goal_topic: "/jackal/current_goal"

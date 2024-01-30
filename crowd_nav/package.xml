@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>crowd_nav</name>
+  <version>0.0.0</version>
+  <description>A package for performing crowd navigation with a Unitree Go1 robot</description>
+  <maintainer email="katiereeshughes@gmail.com">Katie Hughes</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>mbf_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_geometry</depend>
+  <depend>crowd_nav_interfaces</depend>
+  <depend>brnelib</depend>
+  <depend>OpenMP</depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
